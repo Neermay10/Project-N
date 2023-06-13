@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #00FF19;
+    font-family: Courier, "Courier New", serif;
+}
+
+  
+h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.password-input-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.password-input-container1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+  
+input[type="password"] {
+    padding: 4px;
+    margin-bottom: 12px;
+    width: 100px;
+    background-color: black;
+    outline: none;
+    border: black;
+    color: #00FF19;
+    animation: cursor-blink 1s infinite;
+}
+  
+.hidden {
+    display: none;
+}
+
+.loadingContainer {
+    width: 50%;
+    height: 10px;
+    background-color: #00FF19;
+    overflow: hidden;
+    margin-top: 50px;
+}
+  
+.loadingText {
+    color: #00FF19;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.loadingBar {
+    height: 100%;
+    width: 0%;
+    background-color: #00FF19;
+    transition: width 8s;
+}
+  
+
+@keyframes cursor-blink {
+    0% { opacity: 0; }
+}

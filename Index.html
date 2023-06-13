@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password-Protected Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="startPage" class="container">
+    <label for="passwordInput">Enter Password</label>
+    <div class="password-input-container">
+      <div class="password-input-container1">[</div>
+      <input type="password" id="passwordInput" placeholder="" style="color:#00FF19; font-size: 20px">
+      <div class="password-input-container1">]</div>
+    </div>
+  </div>
+
+  <div id="accessGranted" class="container hidden">
+    <h1>Access Granted</h1>
+  </div>
+  <div id="loadingContainer1" class="container hidden">
+    <div id="loadingText">Loading.</div>
+  </div>
+  <div id="loadingContainer2" class="container hidden">
+    <div id="loadingText">Loading..</div>
+  </div>
+  <div id="loadingContainer3" class="container hidden">
+    <div id="loadingText">Loading...</div>
+  </div>
+
+  <div id="accessDenied" class="container hidden" style="color: red;">
+    <h1>Access Denied</h1>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

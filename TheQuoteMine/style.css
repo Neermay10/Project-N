@@ -1,0 +1,186 @@
+*{
+    font-family: "Audiowide", sans-serif;
+}
+
+/* The sidepanel menu */
+.sidepanel {
+    height: 100%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+  
+/* The sidepanel links */
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+  
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.title{
+    display: flex;
+    justify-content: left;
+    font-family: sans-serif;
+    margin: -10px;
+    margin-right: -8px;
+    background-color: #111;
+    color: white;
+    padding-top: 15px;
+}
+.title img{
+    padding-left: 10px;
+}
+.title h1{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.footer{
+    margin: -8px;
+    margin-top: 0px;
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: rgb(136, 136, 136); /* Grey background */
+}
+.btn{
+    background-color: #111; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */ 
+}
+.btn:hover {
+    background-color: RoyalBlue;
+}
+  
+.openbtn:hover {
+    background-color: #444;
+}
+body, html {
+    height: 100%;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.bg-image {
+    /* The image used */
+    background-image: url("4.png");
+  
+    /* Add the blur effect 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);*/
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin: -10px;
+    margin-right: -8px;
+}
+.bg-image-posts {
+    /* The image used */
+    background-image: url("5.png");
+  
+    /* Add the blur effect 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);*/
+  
+    /* Full height */
+    height: 80%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin: -10px;
+    margin-right: -8px;
+}
+  
+/* Position text in the middle of the page/image */
+.bg-text {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-top: 10px solid #f1f1f1;
+    border-bottom: 10px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.grid{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+.grid img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.grid img:hover{
+    transform: scale(1.05);
+}
+.heading{
+    font-family: "Audiowide", sans-serif;
+}
+.Topposts{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.Topposts img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.Topposts img:hover{
+    transform: scale(1.1);
+}

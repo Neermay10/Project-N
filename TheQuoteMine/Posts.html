@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            The Quote Mine
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="/logo.png" type="image/png">
+        <link rel = "stylesheet"
+              type = "text/css"
+              href = "style.css" />
+        <link rel="stylesheet" 
+              href="https://fonts.googleapis.com/css?family=Audiowide"/>
+
+    </head>
+
+    <body>
+
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="Posts.html">Posts</a>
+            <a href="https://www.instagram.com/thequotemine_/">Instagram</a>
+        </div>
+        
+        <div class="title">
+            <div>
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+            <div>
+                <img src="logo.png" height="50px" width="60px">
+            </div>
+            <div>
+                <h1>The Quote Mine</h1>
+            </div>
+        </div>
+        <div class="bg-image-posts"></div>
+
+        <div class="bg-text">
+            <h1>Posts</h1>
+        </div>
+
+        <div class="grid">
+            <div class="column">
+                <a href="https://www.instagram.com/p/CO7G9xOgmD5/?utm_source=ig_web_copy_link"><img src="Set3 Post 1.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COzYryTAZYq/?utm_source=ig_web_copy_link"><img src="Set2 Post 4.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COrqMg6AqyU/?utm_source=ig_web_copy_link"><img src="Set2 Post 1.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COj8EisAW5C/?utm_source=ig_web_copy_link"><img src="Set1 Post 4.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COcNn1WgK7q/?utm_source=ig_web_copy_link"><img src="Set1 Post 1.png" width="270" height="270"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.instagram.com/p/CO4iOQ7gdIw/?utm_source=ig_web_copy_link"><img src="Set2 Post 6.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COwz1izgmj2/?utm_source=ig_web_copy_link"><img src="Set2 Post 3.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COpFbISg0-A/?utm_source=ig_web_copy_link"><img src="Set1 Post 6.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COhW_JIgA2K/?utm_source=ig_web_copy_link"><img src="Set1 Post 3.png" width="270" height="270"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.instagram.com/p/CO19XKhAtcB/?utm_source=ig_web_copy_link"><img src="Set2 Post 5.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COuPYIzA6az/?utm_source=ig_web_copy_link"><img src="Set2 Post 2.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COmhA6xAERg/?utm_source=ig_web_copy_link"><img src="Set1 Post 5.png" width="270" height="270"></a>
+                <a href="https://www.instagram.com/p/COeyYDOg3g1/?utm_source=ig_web_copy_link"><img src="Set1 Post 2.png" width="270" height="270"></a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="https://www.instagram.com/thequotemine_/"><button class="btn"><i class="fa fa-instagram"></i>Follow</button></a>
+        </div>
+
+        <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+            
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
+    </body>
+
+</html>
